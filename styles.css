@@ -1,0 +1,97 @@
+/*Main content styles left and right side*/
+.mainContainer{
+    display: flex;
+    margin-top: 295px;
+    margin-left: 0;
+    flex-wrap: nowrap;
+    
+}
+.contentBox{
+    flex-basis: 25%;
+    padding-left: 25px;
+    padding-right: 15px;
+}
+/*Left Containers and styles*/
+.leftContainer{
+    background-color: #4B4453;
+    flex-flow: column;
+    color: blanchedalmond;
+}
+/*Right Containers and styles*/
+.rightContainer{
+    background-color:  #5DA0A6;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*Header picture Name and proffesion*/
+header{
+    background-color: #557087;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 25%;
+
+}
+/*all boxes in header*/
+.flex-1{
+color: rgb(0, 0, 0);
+flex-wrap: wrap;
+position: relative;
+
+}
+/*box 1*/
+.portrait{
+    padding: 5px;
+    display: inline-block;
+    max-width: 100%;
+
+    
+}
+.portrait img{
+    margin-left: 30%;
+    border-radius: 50%;
+}
+/*box 2*/
+.person{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+
+}
+#full_name{
+    font-size: 5em;
+    margin: 0;
+}
+#full_prof{
+    font-size: 3em;
+    margin: 0;
+}
+.phoneNr{
+    margin: 0 auto;
+    display: inline-block;
+    margin-left: 15px;
+}
+/*General rules HTML Body and all */
+*{
+    
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    width: 100%;
+    min-width: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
